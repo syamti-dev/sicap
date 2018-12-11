@@ -1,0 +1,22 @@
+Readme
+
+
+create springbootstart
+
+war
+
+
+Web
+JPA
+H2
+DevTools
+mysql
+
+----
+config dabase
+
+application.properties
+
+--  run ----
+> run as, spring boot app
+

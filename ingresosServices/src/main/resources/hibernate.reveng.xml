@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="ingresosdb" match-name="address"/>
+  <table-filter match-catalog="ingresosdb" match-name="areas"/>
+  <table-filter match-catalog="ingresosdb" match-name="banks"/>
+  <table-filter match-catalog="ingresosdb" match-name="bd_sepomex"/>
+  <table-filter match-catalog="ingresosdb" match-name="catalog_concepts"/>
+  <table-filter match-catalog="ingresosdb" match-name="catalog_matrix_entry_income"/>
+  <table-filter match-catalog="ingresosdb" match-name="catalogs_funding_sources"/>
+  <table-filter match-catalog="ingresosdb" match-name="catalogs_subfunding_sources"/>
+  <table-filter match-catalog="ingresosdb" match-name="classes"/>
+  <table-filter match-catalog="ingresosdb" match-name="detail_policies"/>
+  <table-filter match-catalog="ingresosdb" match-name="entity_offices"/>
+  <table-filter match-catalog="ingresosdb" match-name="informative_concept"/>
+  <table-filter match-catalog="ingresosdb" match-name="items"/>
+  <table-filter match-catalog="ingresosdb" match-name="localities"/>
+  <table-filter match-catalog="ingresosdb" match-name="matrix_catalog_affectation"/>
+  <table-filter match-catalog="ingresosdb" match-name="municipalities"/>
+  <table-filter match-catalog="ingresosdb" match-name="obligation_concepts"/>
+  <table-filter match-catalog="ingresosdb" match-name="obligations"/>
+  <table-filter match-catalog="ingresosdb" match-name="payment_forms"/>
+  <table-filter match-catalog="ingresosdb" match-name="payment_methods"/>
+  <table-filter match-catalog="ingresosdb" match-name="policies"/>
+  <table-filter match-catalog="ingresosdb" match-name="profiles"/>
+  <table-filter match-catalog="ingresosdb" match-name="reason_cancellation"/>
+  <table-filter match-catalog="ingresosdb" match-name="reference_global"/>
+  <table-filter match-catalog="ingresosdb" match-name="states"/>
+  <table-filter match-catalog="ingresosdb" match-name="status_transaction"/>
+  <table-filter match-catalog="ingresosdb" match-name="taxpayer_obligations"/>
+  <table-filter match-catalog="ingresosdb" match-name="taxpayer_registry"/>
+  <table-filter match-catalog="ingresosdb" match-name="transaction_detail"/>
+  <table-filter match-catalog="ingresosdb" match-name="transaction_h"/>
+  <table-filter match-catalog="ingresosdb" match-name="transaction_informative"/>
+  <table-filter match-catalog="ingresosdb" match-name="transaction_references"/>
+  <table-filter match-catalog="ingresosdb" match-name="type_resources"/>
+  <table-filter match-catalog="ingresosdb" match-name="types"/>
+  <table-filter match-catalog="ingresosdb" match-name="types_officess"/>
+  <table-filter match-catalog="ingresosdb" match-name="types_policy"/>
+  <table-filter match-catalog="ingresosdb" match-name="user_profiles"/>
+  <table-filter match-catalog="ingresosdb" match-name="users"/>
+</hibernate-reverse-engineering>
