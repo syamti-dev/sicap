@@ -21,6 +21,21 @@ public class UserServiceImpl implements IUserService{
 	public List<Users> findAll() {
 		return (List<Users>) userDao.findAll();
 	}
+
+
+	@Override
+	@Transactional
+	public void saveorUpdate(Users user) {
+		userDao.save(user);
+	}
+
+
+
+	@Override
+	@Transactional 
+	public void delete(Long idUser) {
+		userDao.deleteById(idUser);
+	}
 	
 	
 

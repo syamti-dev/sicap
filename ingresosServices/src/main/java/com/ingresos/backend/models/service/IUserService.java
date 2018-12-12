@@ -8,4 +8,8 @@ public interface IUserService {
 
 	public List<Users> findAll();
 	
+	public void saveorUpdate (Users user);
+	
+	public void delete (Long idUser);
+	
 }
